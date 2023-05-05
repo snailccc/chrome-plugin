@@ -3,6 +3,7 @@
   "name": "Gate of Babylon",
   "version": "1.0",
   "description": "The back-end engineer's treasure chest",
+  "author": "fox",
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",
@@ -10,7 +11,14 @@
     "128": "images/icon-128.png"
   },
   "action": {
-    "default_popup": "static/index.html",
-    "default_icon": "images/icon-16.png"
-  }
+    "default_icon": "images/icon-16.png",
+    "default_title": "Gate of Babylon",
+    "default_popup": "static/index.html"
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "cookies",
+    "storage"
+  ]
 }
